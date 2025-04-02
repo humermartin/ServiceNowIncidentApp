@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_360510_incident.ActivityServiceImpl</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>ActivityServiceImpl</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var ActivityServiceImpl = Class.create();
+ActivityServiceImpl.prototype = {
+    initialize: function(activitySubContext) {
+		this.ACTIVITY_RATE_COUNT_LIMIT = 100;
+		this.ACTIVITY_RATE_TIME_LIMIT = 36000;
+    },
+
+		type: 'ActivityServiceImpl'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>Q387392</sys_created_by>
+        <sys_created_on>2025-04-02 13:02:31</sys_created_on>
+        <sys_id>983ee35f836422106b05e270ceaad3eb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ActivityServiceImpl</sys_name>
+        <sys_package display_value="Incident" source="x_360510_incident">659963d7836422106b05e270ceaad373</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Incident">659963d7836422106b05e270ceaad373</sys_scope>
+        <sys_update_name>sys_script_include_983ee35f836422106b05e270ceaad3eb</sys_update_name>
+        <sys_updated_by>Q387392</sys_updated_by>
+        <sys_updated_on>2025-04-02 13:02:31</sys_updated_on>
+    </sys_script_include>
+    <sys_es_latest_script action="DELETE">
+        <id>983ee35f836422106b05e270ceaad3eb</id>
+        <sys_created_by>Q387392</sys_created_by>
+        <sys_created_on>2025-04-02 13:02:30</sys_created_on>
+        <sys_id>8f3e6bdb836422106b05e270ceaad3f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Q387392</sys_updated_by>
+        <sys_updated_on>2025-04-02 13:02:30</sys_updated_on>
+        <table>sys_script_include</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Incident">659963d7836422106b05e270ceaad373</application>
+        <file_path/>
+        <instance_id>b45e94badb627d50ae4c9027c59619c6</instance_id>
+        <instance_name>dev218153</instance_name>
+        <name>sys_script_include_983ee35f836422106b05e270ceaad3eb</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_360510_incident.ActivityServiceImpl&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description/&gt;&lt;mobile_callable&gt;false&lt;/mobile_callable&gt;&lt;name&gt;ActivityServiceImpl&lt;/name&gt;&lt;sandbox_callable&gt;false&lt;/sandbox_callable&gt;&lt;script&gt;&lt;![CDATA[var ActivityServiceImpl = Class.create();
+ActivityServiceImpl.prototype = {
+    initialize: function(activitySubContext) {
+		this.ACTIVITY_RATE_COUNT_LIMIT = 100;
+		this.ACTIVITY_RATE_TIME_LIMIT = 36000;
+    },
+
+		type: 'ActivityServiceImpl'
+};]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Q387392&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-04-02 13:02:31&lt;/sys_created_on&gt;&lt;sys_id&gt;983ee35f836422106b05e270ceaad3eb&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;ActivityServiceImpl&lt;/sys_name&gt;&lt;sys_package display_value="Incident" source="x_360510_incident"&gt;659963d7836422106b05e270ceaad373&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="Incident"&gt;659963d7836422106b05e270ceaad373&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_983ee35f836422106b05e270ceaad3eb&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;Q387392&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-04-02 13:02:31&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;sys_es_latest_script action="INSERT_OR_UPDATE"&gt;&lt;id&gt;983ee35f836422106b05e270ceaad3eb&lt;/id&gt;&lt;sys_created_by&gt;Q387392&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-04-02 13:02:30&lt;/sys_created_on&gt;&lt;sys_id&gt;8f3e6bdb836422106b05e270ceaad3f1&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;Q387392&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-04-02 13:02:30&lt;/sys_updated_on&gt;&lt;table&gt;sys_script_include&lt;/table&gt;&lt;use_es_latest&gt;true&lt;/use_es_latest&gt;&lt;/sys_es_latest_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1967642598</payload_hash>
+        <record_name>ActivityServiceImpl</record_name>
+        <reverted_from/>
+        <source>96ac671b836422106b05e270ceaad391</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Q387392</sys_created_by>
+        <sys_created_on>2025-04-02 13:02:31</sys_created_on>
+        <sys_id>1b3e675f836422106b05e270ceaad315</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>195f6989c290000001</sys_recorded_at>
+        <sys_updated_by>Q387392</sys_updated_by>
+        <sys_updated_on>2025-04-02 13:02:31</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>9f3eafdb9a6422107702724e84930170</update_guid>
+        <update_guid_history>9f3eafdb9a6422107702724e84930170:-1967642598</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Q387392</sys_created_by>
+        <sys_created_on>2025-04-02 13:07:16</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>432cf0d4aca74a00b0c99c0db3c10000</sys_id>
+        <sys_metadata>983ee35f836422106b05e270ceaad3eb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ActivityServiceImpl</sys_name>
+        <sys_package display_value="Incident" source="x_360510_incident">659963d7836422106b05e270ceaad373</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Incident">659963d7836422106b05e270ceaad373</sys_scope>
+        <sys_scope_delete display_value="">30b6988c4a2046509a607d9897c51710</sys_scope_delete>
+        <sys_update_name>sys_script_include_983ee35f836422106b05e270ceaad3eb</sys_update_name>
+        <sys_update_version display_value="sys_script_include_983ee35f836422106b05e270ceaad3eb">1b3e675f836422106b05e270ceaad315</sys_update_version>
+        <sys_updated_by>Q387392</sys_updated_by>
+        <sys_updated_on>2025-04-02 13:07:16</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
