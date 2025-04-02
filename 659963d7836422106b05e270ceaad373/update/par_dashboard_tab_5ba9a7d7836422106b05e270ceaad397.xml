@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_tab">
+    <par_dashboard_tab action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <background_color/>
+        <dashboard display_value="Incident Requests">93a96f17836422106b05e270ceaad348</dashboard>
+        <name>New Tab 1</name>
+        <order>0</order>
+        <sys_class_name>par_dashboard_tab</sys_class_name>
+        <sys_created_by>Q387392</sys_created_by>
+        <sys_created_on>2025-04-02 12:42:35</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5ba9a7d7836422106b05e270ceaad397</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New Tab 1</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Incident" source="x_360510_incident">659963d7836422106b05e270ceaad373</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Incident">659963d7836422106b05e270ceaad373</sys_scope>
+        <sys_update_name>par_dashboard_tab_5ba9a7d7836422106b05e270ceaad397</sys_update_name>
+        <sys_updated_by>Q387392</sys_updated_by>
+        <sys_updated_on>2025-04-02 12:42:35</sys_updated_on>
+    </par_dashboard_tab>
+</record_update>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">97a9a7d7836422106b05e270ceaad39a</canvas>
+        <component display_value="List - Simple">2b1c080881e05dc63b917044290b233f</component>
+        <component_props>{"table":"x_360510_incident_request","fixedQuery":"active=true","listTitle":"All Active Tasks","columns":"","query":"active=true","groupByField":"","hideViewAll":false,"hideHighlightedValues":false,"highlightedValueConfigId":"","hideHighlightContent":false,"highlightContent":{"patterns":[],"color":""},"hideLinks":false,"nrlLandmark":true,"wordWrap":false,"overrideWordWrapUserPref":false,"maxCharLimit":4000,"hideEmptyStateImage":false,"hidePersonalization":false,"hideDotwalk":false,"hideColumnReorder":false,"hideRowSelector":false,"hideColumnGrouping":false,"hideColumnResizing":false,"hideColumnFiltering":false,"hideColumnSorting":false,"hideHeader":false,"hideTitle":false,"hideTitleRowCount":false,"hideLastRefreshedText":false,"hideRefreshButton":false,"hideInlineEditing":false,"refreshRequested":""}</component_props>
+        <h>20</h>
+        <name/>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>Q387392</sys_created_by>
+        <sys_created_on>2025-04-02 12:42:35</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5ba9a7d7836422106b05e270ceaad3a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Incident" source="x_360510_incident">659963d7836422106b05e270ceaad373</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Incident">659963d7836422106b05e270ceaad373</sys_scope>
+        <sys_update_name>par_dashboard_widget_5ba9a7d7836422106b05e270ceaad3a3</sys_update_name>
+        <sys_updated_by>Q387392</sys_updated_by>
+        <sys_updated_on>2025-04-02 12:42:35</sys_updated_on>
+        <visualization/>
+        <w>48</w>
+        <widget_props/>
+        <x>0</x>
+        <y>15</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Incident">659963d7836422106b05e270ceaad373</application>
+        <file_path/>
+        <instance_id>b45e94badb627d50ae4c9027c59619c6</instance_id>
+        <instance_name>dev218153</instance_name>
+        <name>par_dashboard_widget_5ba9a7d7836422106b05e270ceaad3a3</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">97a9a7d7836422106b05e270ceaad39a</canvas><component display_value="List - Simple">2b1c080881e05dc63b917044290b233f</component><component_props>{"table":"x_360510_incident_request","fixedQuery":"active=true","listTitle":"All Active Tasks","columns":"","query":"active=true","groupByField":"","hideViewAll":false,"hideHighlightedValues":false,"highlightedValueConfigId":"","hideHighlightContent":false,"highlightContent":{"patterns":[],"color":""},"hideLinks":false,"nrlLandmark":true,"wordWrap":false,"overrideWordWrapUserPref":false,"maxCharLimit":4000,"hideEmptyStateImage":false,"hidePersonalization":false,"hideDotwalk":false,"hideColumnReorder":false,"hideRowSelector":false,"hideColumnGrouping":false,"hideColumnResizing":false,"hideColumnFiltering":false,"hideColumnSorting":false,"hideHeader":false,"hideTitle":false,"hideTitleRowCount":false,"hideLastRefreshedText":false,"hideRefreshButton":false,"hideInlineEditing":false,"refreshRequested":""}</component_props><h>20</h><name/><stored_component/><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>Q387392</sys_created_by><sys_created_on>2025-04-02 12:42:35</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>5ba9a7d7836422106b05e270ceaad3a3</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="Incident" source="x_360510_incident">659963d7836422106b05e270ceaad373</sys_package><sys_policy/><sys_scope display_value="Incident">659963d7836422106b05e270ceaad373</sys_scope><sys_update_name>par_dashboard_widget_5ba9a7d7836422106b05e270ceaad3a3</sys_update_name><sys_updated_by>Q387392</sys_updated_by><sys_updated_on>2025-04-02 12:42:35</sys_updated_on><visualization/><w>48</w><widget_props/><x>0</x><y>15</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>-1386939661</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>a19963d7836422106b05e270ceaad378</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Q387392</sys_created_by>
+        <sys_created_on>2025-04-02 12:42:35</sys_created_on>
+        <sys_id>d3a9a7d7836422106b05e270ceaad3a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>195f6865d1a0000001</sys_recorded_at>
+        <sys_updated_by>Q387392</sys_updated_by>
+        <sys_updated_on>2025-04-02 12:42:35</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>d7a9a7d742642210dcdd7cabee78a3a4</update_guid>
+        <update_guid_history>d7a9a7d742642210dcdd7cabee78a3a4:-1386939661</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">d3a9a7d7836422106b05e270ceaad3b4</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Q387392</sys_created_by>
+        <sys_created_on>2025-04-02 12:42:35</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>0408eb681c4747e0802ac2e69413b010</sys_id>
+        <sys_metadata>5ba9a7d7836422106b05e270ceaad3a3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Incident" source="x_360510_incident">659963d7836422106b05e270ceaad373</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Incident">659963d7836422106b05e270ceaad373</sys_scope>
+        <sys_scope_delete display_value="">30b6988c4a2046509a607d9897c51710</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_5ba9a7d7836422106b05e270ceaad3a3</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_5ba9a7d7836422106b05e270ceaad3a3">d3a9a7d7836422106b05e270ceaad3a5</sys_update_version>
+        <sys_updated_by>Q387392</sys_updated_by>
+        <sys_updated_on>2025-04-02 12:42:35</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
