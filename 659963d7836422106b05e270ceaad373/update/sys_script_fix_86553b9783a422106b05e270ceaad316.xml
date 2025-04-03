@@ -4,7 +4,9 @@
         <description/>
         <name>ScopeTest</name>
         <record_for_rollback>true</record_for_rollback>
-        <script><![CDATA[var counter = 0;
+        <script>
+          <![CDATA[var counter = 0;
+        var counterB = 100;
 var grUser = new GlideRecord('sys_user');
 ]]></script>
         <sys_class_name>sys_script_fix</sys_class_name>
