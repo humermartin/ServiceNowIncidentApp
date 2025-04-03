@@ -52,7 +52,7 @@ ActivityServiceImpl.prototype = {
         <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_360510_incident.ActivityServiceImpl&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description/&gt;&lt;mobile_callable&gt;false&lt;/mobile_callable&gt;&lt;name&gt;ActivityServiceImpl&lt;/name&gt;&lt;sandbox_callable&gt;false&lt;/sandbox_callable&gt;&lt;script&gt;&lt;![CDATA[var ActivityServiceImpl = Class.create();
 ActivityServiceImpl.prototype = {
     initialize: function(activitySubContext) {
-		this.ACTIVITY_RATE_COUNT_LIMIT = 100;
+		this.ACTIVITY_RATE_COUNT_LIMIT = 200;
 		this.ACTIVITY_RATE_TIME_LIMIT = 36000;
     },
 
